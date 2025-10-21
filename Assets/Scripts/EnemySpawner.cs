@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [Header ("Nilai X Kiri dan Kanan Spawner")]
+    [Header ("LeftX and rightX")]
     public float leftX;
     public float rightX;
     public ObjectSpawnRate[] enemies;
     [SerializeField] List<GameObject> enemyList;
     
 
-    [Header ("Delay Waktu Spawn")]
+    [Header ("Spawner Delay")]
     public int delay;
     void Start()
     {
