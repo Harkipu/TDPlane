@@ -37,5 +37,9 @@ ESC to pause
 ## Contributors
 Clifftoven Wicaksono - Game Programmer
 
+Asset from:
+
+Space Ship https://opengameart.org/content/space-ship-shooter-pixel-art-assets 
+
 
 
