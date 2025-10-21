@@ -1,30 +1,32 @@
-<p align="center"><img img width="900" height="564" src="https://github.com/user-attachments/assets/af32106d-38c3-415a-9b44-81e0c9be9213" xalign="mid"></p>
-<!---
-https://github.com/user-attachments/assets/af32106d-38c3-415a-9b44-81e0c9be9213
-https://github.com/user-attachments/assets/ceceaae4-070b-4ca7-8d82-cf24c2b5ca50
---->
+<p align="center"><img img width="900" height="564" src="" xalign="mid"></p>
 
 <br>
 
 ## About
-TDPlane is a simple plane shooter survival game.
+TDPlane is a simple plane shooter survival game. Control the plane to dodge enem attack, attack back at enemy, and collect drops from enem.
 
 ## Controls
 
 Arrows to move
+ESC to pause
 
 ##  Scripts
 
 |  Scripts | Description |
 | --- | --- |
-| `PlayerMovement.cs` | Player WASD movement|
-| `PlayerDash.cs` | Player Dash script|
-| `SpellChecker.cs`| Detects player's left and right click and show the components that are currently made|
-| `SpellCaster.cs` | Takes calls from `SpellChecker.cs` for executing all the different spells and their combination|
-| `Spells`| The spells folder has all the scripts for all the different spells. It usually had data about damage, effects (like slowing down enemies), timer function, OnHit, etc|
-|`Enemy.cs`| This script is the base for all the other enemies. It has functions about movement, taking damage, etc. 
-|`Enemy`| The folder has all the different enemy scripts that inherits `Enemy.cs`. Each enemy has each their own ways to deal damage to the player and making it inherit the enemy class is easier to implement for additional enemies in the future|
-|`FollowPlayer.cs`| Script for camera to follow player|
+| `Movement` | This folder contains all scripts related to movement. Movement limit and boundary are also here.|
+| `Object` | This folder has scripts that are related to object in this game. Coin and Heart are here with script to pool object and object lifetime before despawn.|
+| `UI`| Contains UI scripts like Life and Menu.|
+| `PlayerController.cs` | Handles the movement control of player plane.|
+| `Weapon.cs`| This script is used for enemy weapon and also player weapon. It control the firerate and projectile the weapon gonna shoot. Interact with fireratemodifier script to edit firerate.|
+|`InvisibleFrame.cs`| This script give plane that got hit a grace period of invisibility.| 
+|`AutoShoot.cs`| Script that make object with weapon.cs shoot automatically.|
+|`ContainItems.cs`| Script for enemy to be able to have multiple drop items.|
+| `EnemySpawner.cs`| Script to spawn random enemy when the game is playing. Has delay and customable X limit range.|
+| `GameManager.cs`| Manage many different things inside the game like controlling if the game is playing or not, menuUI interaction, Item and object reset, etc.|
+| `TriggerEvent.cs`| This script control the trigger when objects collides with certain objects and then trigger certain action.|
+
 
 ## Contributors
 Clifftoven Wicaksono - Game Programmer
+
