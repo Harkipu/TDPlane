@@ -3,7 +3,7 @@
 <br>
 
 ## About
-TDPlane is a simple plane shooter survival game. Control the plane to dodge enem attack, attack back at enemy, and collect drops from enem.
+TDPlane is a simple plane shooter survival game. Control the plane to dodge enemy attack, attack back at enemy, and collect drops from enemy.
 
 ## Controls
 
@@ -36,5 +36,6 @@ ESC to pause
 
 ## Contributors
 Clifftoven Wicaksono - Game Programmer
+
 
 
