@@ -25,8 +25,16 @@ ESC to pause
 | `EnemySpawner.cs`| Script to spawn random enemy when the game is playing. Has delay and customable X limit range.|
 | `GameManager.cs`| Manage many different things inside the game like controlling if the game is playing or not, menuUI interaction, Item and object reset, etc.|
 | `TriggerEvent.cs`| This script control the trigger when objects collides with certain objects and then trigger certain action.|
+| `Destroyable.cs`| Script when called will destroy game object.|
+| `ExplosionBehavior.cs`| Script for setting up explosion animation.|
+| `ExplosionEffect.cs`| Script to call explosion.|
+| `LifeEditor.cs`| This script add custom editor when using life.cs script on an object.|
+| `LookToPlayer.cs`| Script to make enemy weapon target the player.|
+| `WeaponSetController.cs`| This script handle the weapon set change when player got upgrade.|
+
 
 
 ## Contributors
 Clifftoven Wicaksono - Game Programmer
+
 
