@@ -8,6 +8,7 @@ TDPlane is a simple plane shooter survival game. Control the plane to dodge enem
 ## Controls
 
 Arrows to move
+
 ESC to pause
 
 ##  Scripts
@@ -40,6 +41,7 @@ Clifftoven Wicaksono - Game Programmer
 Asset from:
 
 Space Ship https://opengameart.org/content/space-ship-shooter-pixel-art-assets 
+
 
 
 
