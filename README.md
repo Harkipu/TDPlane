@@ -1,4 +1,4 @@
-<p align="center"><img img width="900" height="564" src="" xalign="mid"></p>
+<img width="100%" src="https://github.com/Harkipu/GifandStuff/blob/main/TDPlaneVid.gif">
 
 <br>
 
@@ -41,6 +41,7 @@ Clifftoven Wicaksono - Game Programmer
 Asset from:
 
 Space Ship https://opengameart.org/content/space-ship-shooter-pixel-art-assets 
+
 
 
 
